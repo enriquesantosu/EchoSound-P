@@ -1,0 +1,88 @@
+/* Fonts */
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 5vw;
+    font-weight: 900;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+
+/* Navbar */
+
+nav {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler {
+    border: .3vw solid transparent;
+    border-radius: .75vw;
+    transition: border 0.25s ease;
+    padding: .5vw 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggler:hover {
+    border: .3vw solid white;
+    border-radius: .75vw;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.fa-solid {
+    font-size: 3vw;
+    color: white;
+    transition: color .25s ease;
+}
+
+.navbar-toggler:active {
+    border-color: #c9c9c9;
+}
+
+.navbar-toggler:active .fa-solid {
+    color: #c9c9c9;
+}
+
+
+
+
+
+/* Landing Page */
+
+.bg-img-1 {
+    background-image: url(../img/carousel-1\ cropped.png)
+}
+
+.bg-img-2 {
+    background-image: url(../img/carousel-2\ cropped.png);
+}
+
+.bg-img-3 {
+    background-image: url(../img/carousel-3\ cropped.png);
+}
+
+.bg-img-4 {
+    background-image: url(../img/carousel-4\ cropped.png);
+}
+
+.carousel-image {
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+main {
+    height: 100vh;
+}
